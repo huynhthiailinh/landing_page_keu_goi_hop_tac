@@ -1,0 +1,31 @@
+#register .row.column-direction {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#register .row.column-direction .col {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#register .small-image {
+    height: 150px;
+}
+
+#register .big-image {
+    height: 450px;
+}
+
+#register img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+#register .form-wrapper .head .title {
+    color: #2D2D2D;
+}
+
+#register .form-wrapper .head .sub-title {
+    color: #262626;
+}

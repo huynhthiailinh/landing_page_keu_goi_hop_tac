@@ -1,0 +1,105 @@
+/* Montserrat Regular 400 */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* Montserrat Semi-bold 600 */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+/* Montserrat Black 900 */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@900&display=swap");
+/* Roboto Regular 400 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Roboto Medium 500 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* Roboto Bold 700 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+#about {
+  color: #2d2d2d;
+}
+
+#about .register-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about .register-content-wrapper {
+    width: 60%;
+}
+
+#about .register-content-wrapper .head {
+    font-family: "Montserrat";
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+
+#about .register-content-wrapper .middle {
+    margin: 10px 0 30px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+#about .register-content-wrapper .bottom {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 22px;
+  border: 2px #2d2d2d solid;
+  border-radius: 10px;
+  padding: 5px 20px;
+  width: fit-content;
+}
+
+#about .register-image {
+  height: 500px;
+}
+
+#about .register-image img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+/* about-content */
+
+#about .about-content {
+  position: relative;
+  height: 150px;
+}
+
+#about .about-content .wide {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+#about .about-item {
+    border-radius: 5px;
+    text-align: center;
+}
+
+#about .about-item-wrapper {
+    background-color: #F0F1F3;
+    height: 100%;
+}
+
+#about .about-item .head {
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 30px 10px;
+}
+
+#about .about-item .middle {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 30px 30px;
+    line-height: 22px;
+}

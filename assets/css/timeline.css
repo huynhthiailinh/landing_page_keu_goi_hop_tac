@@ -1,0 +1,26 @@
+#timeline {
+    height: 400px;
+}
+
+#timeline .col {
+    position: relative;
+}
+
+#timeline .number {
+    position: absolute;
+    top: 0;
+    height: 100px;
+    width: 100px;
+    background-color: #595959;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#timeline .line {
+    position: absolute;
+    height: 3px;
+    width: 1000px;
+    background-color: #FBB03B;
+    top: 50px;
+    z-index: 0;
+}

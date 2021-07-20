@@ -1,0 +1,13 @@
+#header {
+    padding: 10px 0;
+}
+
+#header .row .col {
+    display: flex;
+    justify-content: center;
+    height: 52px;
+}
+
+#header img {
+    height: 100%;
+}

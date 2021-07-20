@@ -1,0 +1,57 @@
+/* Roboto Regular 400 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Roboto Medium 500 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* Roboto Bold 700 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+#package {
+    margin-top: 15px;
+}
+
+#package .title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#package .package-item.background {
+    background-color: #F7F8F9;
+}
+
+#package .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+#package .image img {
+    height: 100%;
+}
+
+#package .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#package .content .head {
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FBB03B;
+    text-align: center;
+    line-height: 24px;
+}
+
+#package .content .middle {
+    color: #2D2D2D;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}

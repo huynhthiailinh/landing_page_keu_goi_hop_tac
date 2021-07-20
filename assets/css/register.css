@@ -1,31 +1,116 @@
-#register .row.column-direction {
-    flex-direction: column;
-    justify-content: space-between;
+/* Roboto Regular 400 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* Roboto Bold 700 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+#register {
+  background-color: #f7f8f9;
 }
 
-#register .row.column-direction .col {
-    padding-top: 12px;
-    padding-bottom: 12px;
+#register .row.column-direction {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#register .row.column-direction .top-image {
+  padding-bottom: 12px;
+}
+
+#register .row.column-direction .bottom-image {
+  padding-top: 12px;
 }
 
 #register .small-image {
-    height: 150px;
+  height: 150px;
 }
 
 #register .big-image {
-    height: 450px;
+  height: 450px;
 }
 
 #register img {
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+#register .head {
+  text-align: center;
 }
 
 #register .form-wrapper .head .title {
-    color: #2D2D2D;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #2d2d2d;
+  font-family: "Roboto";
+  font-weight: 700;
 }
 
 #register .form-wrapper .head .sub-title {
-    color: #262626;
+  color: #262626;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+#register .middle {
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+#register .form-wrapper .middle .row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#register .middle .col.label {
+  display: flex;
+  align-items: center;
+}
+
+#register .form-wrapper .label {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 12px;
+}
+
+#register .col input,
+#register .col select,
+#register .col textarea {
+  width: 100%;
+  line-height: 32px;
+  padding-left: 14px;
+  color: #888888;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  border: #dcdcdc 1px solid;
+  border-radius: 5px;
+}
+
+#register .col select {
+  height: 36px;
+}
+
+#register .form-wrapper .bottom .row {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  justify-content: flex-end; 
+}
+
+#register .form-wrapper .bottom .col {
+    display: flex;
+    justify-content: center;
+}
+
+#register .form-wrapper .register-now-button {
+  background-color: #fbb03b;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  width: 40%;
 }

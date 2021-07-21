@@ -9,6 +9,10 @@
     margin-top: 15px;
 }
 
+#package .row {
+    justify-content: center;
+}
+
 #package .title {
     font-family: 'Roboto';
     font-weight: 700;
@@ -25,11 +29,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
 }
 
 #package .image img {
-    height: 100%;
+    height: 250px;
 }
 
 #package .content {

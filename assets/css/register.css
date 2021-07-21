@@ -59,7 +59,7 @@
   padding-right: 30px;
 }
 
-#register .form-wrapper .middle .row {
+#register .form-wrapper .middle > .row {
   margin-top: 20px;
   margin-bottom: 20px;
 }

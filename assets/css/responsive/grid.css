@@ -3,6 +3,11 @@
   display: block;
   padding: 0;
   height: 100%;
+  overflow: hidden;
+}
+
+.grid,
+.wide {
   margin: 0 auto;
 }
 
@@ -10,6 +15,51 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+
+/* css .wide */
+@media (min-width: 320px) and (max-width: 739px) {
+  .wide {
+    width: 100%;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 923px) {
+  .wide {
+    width: 644px;
+  }
+}
+
+@media (min-width: 924px) and (max-width: 1023px) {
+  .wide {
+    width: 880px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+  .wide {
+    width: 984px;
+  }
+}
+
+@media (min-width: 1240px) and (max-width: 1639px) {
+  .wide {
+    width: 1200px;
+  }
+}
+
+@media (min-width: 1640px) and (max-width: 1823px) {
+  .wide {
+    width: 1600px;
+  }
+}
+
+@media (min-width: 1824px) {
+  .wide {
+    width: 1800px;
+  }
+}
+
 
 /* Mobile -- c */
 @media (min-width: 320px) and (max-width: 739px) {

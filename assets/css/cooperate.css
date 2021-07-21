@@ -12,8 +12,8 @@
 }
 
 #cooperate .middle {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #cooperate .middle .col.item {
@@ -23,4 +23,6 @@
 
 #cooperate img {
     border: #A7A7A7 1px solid;
+    width: 100%;
+    object-fit: contain;
 }

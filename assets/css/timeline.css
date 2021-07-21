@@ -53,10 +53,9 @@
 #timeline .line {
     position: absolute;
     top: 50px;
-    left: 50px;
+    left: 100px;
     width: 1000px;
     height: 3px;
-    width: 1000px;
     background-color: #FBB03B;
     z-index: 0;
 }

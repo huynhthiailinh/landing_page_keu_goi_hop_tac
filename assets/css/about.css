@@ -100,3 +100,34 @@
   padding: 0 30px 30px;
   line-height: 22px;
 }
+
+/* register image */
+@media (min-width: 320px) and (max-width: 374px) {
+  #about .register-image img {
+    height: 250px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+  #about .register-image img {
+    height: 300px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 568px) {
+  #about .register-image img {
+    height: 350px;
+  }
+}
+
+@media (min-width: 569px) and (max-width: 667px) {
+  #about .register-image img {
+    height: 400px;
+  }
+}
+
+@media (min-width: 668px) and (max-width: 739px) {
+  #about .register-image img {
+    height: 450px;
+  }
+}
